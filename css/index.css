@@ -15,6 +15,7 @@
 body {
   background-color: var(--primary-color);
   color: var(--text-color);
+  transition: 0.3s;
 }
 
 /* Theme Toggler CSS */
@@ -42,7 +43,7 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .slider:before {
@@ -52,7 +53,7 @@ body {
   height: 26px;
   left: 4px;
   position: absolute;
-  transition: 0.4s;
+  transition: 0.3s;
   width: 26px;
 }
 
