@@ -33,29 +33,25 @@ body {
   width: 60px;
 }
 
-.theme-switch input {
-  display: none;
-}
-
 .slider {
   background-color: var(--tertiary-color);
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  cursor: pointer;
   transition: 0.3s;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .slider:before {
   background-color: var(--primary-color);
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
   position: absolute;
   transition: 0.3s;
+  content: "";
+  left: 4px;
+  bottom: 4px;
+  height: 26px;
   width: 26px;
 }
 
