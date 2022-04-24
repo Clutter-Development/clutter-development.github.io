@@ -2,13 +2,15 @@
   --blurple: #7289da;
 
   --primary-color: #36393e;
-  --secondary-color: #454950;
+  --secondary-color: #282b30;
+  --tertiary-color: #1e2124;
   --text-color: #ffffff;
 }
 
 [data-theme="light"] {
   --primary-color: #ffffff;
   --secondary-color: #f2f3f5;
+  --tertiary-color: #e3e5e8;
   --text-color: #060607;
 }
 
@@ -36,7 +38,7 @@ body {
 }
 
 .slider {
-  background-color: #ccc;
+  background-color: var(--tertiary-color);
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -47,7 +49,7 @@ body {
 }
 
 .slider:before {
-  background-color: #fff;
+  background-color: var(--primary-color);
   bottom: 4px;
   content: "";
   height: 26px;
@@ -55,10 +57,6 @@ body {
   position: absolute;
   transition: 0.3s;
   width: 26px;
-}
-
-input:checked + .slider {
-  background-color: #66bb6a;
 }
 
 input:checked + .slider:before {
